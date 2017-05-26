@@ -13,7 +13,7 @@ import { HeroService } from './hero.service';
   styleUrls: ['./hero-detail.component.styl']
 })
 export class HeroDetailComponent implements OnInit {
-  protected hero: Hero;
+  hero: Hero;
 
   constructor(
     private heroService: HeroService,
